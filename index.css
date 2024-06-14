@@ -1,0 +1,56 @@
+.houdai div {
+    padding: 10px;
+    background: rgba(33, 213, 174, 0.389);
+    margin: 10px;
+}
+.bd .red {
+    border: 3px solid red
+}
+.bd .green {
+    border: 3px solid green
+}
+.bd .blue {
+    border: 3px solid blue
+}
+.bg .red {
+    background: red;
+}
+.bg .green {
+    background: green;
+}
+.bg .blue {
+    background: blue;
+}
+.red ~ div {
+    text-align: center;
+}
+.weilei a:link {
+    color: blue;
+}
+.weilei a:visited {
+    color: red;
+}
+.weilei button:hover {
+    color: gray;
+}
+.weilei a:hover {
+    background: rgba(33, 213, 174, 0.389);
+}
+.weilei input:focus {
+    background: #aaa;
+}
+.weilei input:hover {
+    background: red;
+}
+.weiyuansu .test:after {
+    content: "[asdfa]";
+    color: blue;
+}
+.weiyuansu .test:before {
+    content: "{sakjbskjfg}";
+    color: red;
+}
+.weiyuansu div p:first-child {
+    content: 1234;
+    color: green;
+}
