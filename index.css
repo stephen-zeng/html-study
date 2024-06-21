@@ -50,7 +50,19 @@
     content: "{sakjbskjfg}";
     color: red;
 }
-.weiyuansu div p:first-child {
+.weiyuansu p:first-child {
     content: 1234;
     color: green;
+}
+.quanzhong p {
+    color: green;
+}
+div.Font p.ob {
+    font-style: oblique;
+}
+div.Font p.it {
+    font-style: italic;
+}
+div.Font p.sc {
+    font-variant: small-caps;
 }

@@ -1,0 +1,12 @@
+function User() {
+    this.fname = prompt("F");
+    this.lname = prompt("L");
+}
+
+function hi() {
+    console.log("Hi, I'm "+this.fname+' '+this.lname);
+}
+
+var SZ = new User();
+SZ.hi = hi.bind(SZ);
+SZ.hi();
